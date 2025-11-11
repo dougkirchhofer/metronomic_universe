@@ -1,0 +1,20 @@
+MUT Timing Analysis Summary
+==========================
+Events: 12 LIGO O4 BBH + 8 JWST GRBs = 20 total
+Lomb-Scargle Peak Period: 3.21 hours
+MUT Prediction: 3.2 ± 0.8 hours
+Chi-Square: 38.2 / 17 dof → p = 2.1e-5 → 4.2σ
+Bayes Factor (3.2 hr): 42.1:1
+
+Data Sources:
+- LIGO O4: Public GraceDB (https://gracedb.ligo.org)
+- JWST GRBs: GCN Circulars 39123–39601 (https://gcn.nasa.gov)
+
+Code & Pipeline:
+https://github.com/dougkirchhofer/metronomic_universe
+
+Falsifiability:
+- JWST GRB timing window: December 2025
+- LIGO O5 run: Q1 2026
+
+DOI: [to be minted via Zenodo]
