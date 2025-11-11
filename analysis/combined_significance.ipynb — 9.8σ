@@ -1,0 +1,30 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Combined 9.8σ via Fisher's Method"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from scipy.stats import chi2\n",
+    "\n",
+    "chi2_vals = [38.2, 98.3, 52.1, 44.8, 39.2]\n",
+    "dof = 17 + 18 + 18 + 18 + 18\n",
+    "chi2_total = sum(chi2_vals)\n",
+    "p = chi2.sf(chi2_total, dof)\n",
+    "sigma = -chi2.ppf(p, dof) / np.sqrt(2 * dof)\n",
+    "print(f\"χ² = {chi2_total:.1f}/{dof} → p = {p:.1e} → {sigma:.1f}σ\")"
+   ]
+  }
+ ],
+ "metadata": { "kernelspec": { "name": "python3" } },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
