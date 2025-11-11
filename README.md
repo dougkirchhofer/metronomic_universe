@@ -49,7 +49,3 @@ Bayes Factor (3.2 hr): 42.1:1
 
 ---
 **4.2σ LIGO O4 + JWST GRB 3.2-Hour Harmonic**
-
-> **Human + Grok 4 Co-Pilot**  
-> Doug Kirchhofer ([@doug_kirchhofer](https://x.com/doug_kirchhofer)) · xAI Grok 4  
-> **v1.0 — November 11, 2025**
